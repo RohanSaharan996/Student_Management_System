@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bgone"
+    android:gravity="center"
+    android:layout_marginBottom="10sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/shape"
+        android:elevation="8dp"
+        android:orientation="vertical"
+
+        android:padding="16dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@color/white"
+            android:elevation="4dp"
+            android:padding="16dp"
+            app:cardCornerRadius="50sp">
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name: John Doe"
+                android:fontFamily="sans-serif-medium"
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@color/white"
+            android:elevation="4dp"
+            android:padding="16dp"
+            app:cardCornerRadius="50sp">
+
+            <TextView
+                android:id="@+id/ageTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Age: 18"
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@color/white"
+            android:elevation="4dp"
+            android:padding="16dp"
+            app:cardCornerRadius="50sp">
+
+            <TextView
+                android:id="@+id/heightTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Height: 170 cm"
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                app:cardCornerRadius="50sp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@color/white"
+            android:elevation="4dp"
+            android:padding="16dp"
+            app:cardCornerRadius="50sp">
+
+            <TextView
+                android:id="@+id/weightTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Weight: 60 kg"
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:elevation="4dp"
+            android:padding="16dp"
+            app:cardCornerRadius="50sp">
+
+            <TextView
+                android:id="@+id/bloodTypeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="Blood type: O+"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>
